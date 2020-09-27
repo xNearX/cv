@@ -5,27 +5,24 @@
     <meta charset="utf-8">
     <title>Leland's Personal Site</title>
 
-
-    <!-- CSS Stylesheets -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <link type="text/css" rel="stylesheet" href="css/standard.css">
-
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/75856c8740.js" crossorigin="anonymous"></script>
 
     <!-- Bootstrap Scripts -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link type="text/css" rel="stylesheet" href="css/standard.css">
     
 </head>
 <body>
     <!--Introduction Group Heading-->
     <header id="title">
-
         <!-- Navigation Bar -->
-
-        <nav class="navbar bavbar-expand-lg navbar-dark">
+        <nav class="navbar navbar-expand-lg navbar-primary">
             <a class="navbar-brand" href="">Leland</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -44,65 +41,75 @@
                 </ul>
             </div>
         </nav>
-
-
-
-        <table cellspacing="20">
-            <tr>
-                <td><img src="images/profilepicture.jpg"
-                        alt="Leland profile picture"></td>
-                <td>
-                        <h1>Leland Dean</h1>
-                        <h2><em>Web Designer and Full Stack Developer</em></h2>
-                    <nav>
-                        <ul>
-                            <li><a href="goals.html">Goals</a></li>
-                            <li><a href="projects.html">Projects</a></li>
-                            <li><a href="contact.html">Contact Me</a></li>
-                        </ul>
-                    </nav>
-                </td>
-            </tr>
-        </table>
     </header>
+
+    <section id="introduction">
+        <div class="row text-center ">
+            <div class="col-lg-6">
+                <h1>Leland Dean</h1>
+                <h2><em>Web Designer and Full Stack Developer</em></h2>
+            </div>
+            <div class="col-lg-6">
+                <img src="images/profilepicture.jpg" alt="Leland profile picture">
+            </div>
+        </div>
+
+    </section>   
+
     <main>
-    <!--First Section Describing myself-->
-        <section>
-            <p>I am a Web Developer and Programmer. Studing the basics and showing what I have already learned by building
+    <!--Personal Description-->
+        <section id="personal-description">
+            <p class="text-center personal-p">
+                I am a Web Developer and Programmer. Studing the basics and showing what I have already learned by building
                 basic websites. I am also an amateur photographer. A few things I love to do is working out at the gym and
-                learning new technology.</p>
-        </section>
-        <hr>
-        <!--Second Section Education-->
-        <section>
-            <h3>Education</h3>
-            <ul>
-                <li>Kwantlen Polytechnic University</li>
-                <ul>
-                    <li>Mandarin</li>
-                </ul>
-                <li>Academy of learning
-                    <ul>
-                        <li>Comptia A+ and Network+ Certifcation</li>
-                        <li>Computer PC Specialist Diploma</li>
-                    </ul>
-                </li>
-                <li>University of Fraser Valley
-                    <ul>
-                        <li>1st Year Mathematics</li>
-                    </ul>
-                </li>
-                <li>Langley Education Centre</li>
-            </ul>
+                learning new technology.
+            </p>
         </section>
 
+        <!--Education Section-->
+        <section id="education">
+            <h3 class="text-center education-p">Education</h3>
+            <div class="row">
+                <div class="col-lg-4">
+                    <ul>
+                        <li>Kwantlen Polytechnic University
+                            <ul>
+                                <li>Mandarin</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <ul>
+                        <li>Academy of learning
+                            <ul>
+                                <li>Comptia A+ and Network+ Certifcation</li>
+                                <li>Computer PC Specialist Diploma</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <ul>
+                        <li>University of Fraser Valley
+                            <ul>
+                                <li>1st Year Mathematics</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
 
-        <hr>
-        <!--Third Section Hobbies-->
-        <section>
+        <!--Work Experience-->
+        <section id="work-history">
             <h3>Work Experience</h3>
-            <!--<ul>
-                <li>Bronco Industres <time datetime="2013-10">Oct 2013</time> - Present
+            <div class="row">
+                <div class="col-lg-6 text-center">
+                    <h3>Bronco Industries</h3>
+                    <time datetime="2013-10">Oct 2013- Present</time> 
+                </div>
+                <div class="col-lg-6">
                     <ul>
                         <li>Optimizing Production</li>
                         <li>Drafting and Template designs
@@ -114,121 +121,66 @@
                         <li>Inventory Managment</li>
                         <li>Project Management</li>
                     </ul>
-                </li>
-                <li>Thousand Hills Landscaping <time datetime="2001-01">Jan 2001</time> - <time datetime="2006-07">July
-                        2007</time>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6 text-center">
+                    <h3>ABC Country Restaurant</h3>
+                    <time datetime="2006-07">July 2007</time> - <time datetime="2013-09">Sept 2013</time>
+                </div>
+                <div class="col-lg-6"> 
+                    <ul>
+                        <li>Dishwasher</li>
+                        <li>High Volume Service</li>
+                        <li>Deserts and Salads</li>
+                        <li>cleaning</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6 text-center">
+                    <h3>Thousand Hills Landscaping</h3>
+                    <time datetime="2006-07">July 2007</time> - <time datetime="2013-09">Sept 2013</time>
+                </div>
+                <div class="col-lg-6">
                     <ul>
                         <li>General cleaning up</li>
                         <li>Planting</li>
                         <li>irrigation installation</li>
                     </ul>
-                </li>
-            </ul>
-            </ul>-->
-            <!-- Outer table-->
-            <table>
-                <tr>
-                    <td>
-                        <table>
-                            <tr>
-                                <td>Bronco Industries Inc.</td>
-                            </tr>
-                            <tr>
-                                <td><time datetime="2013-10">Oct 2013</time> - Present</td>
-                            </tr>
-                        </table>
-                    </td>
-                    <td>
-                        <ul>
-                            <li>Optimizing Production</li>
-                            <li>Drafting and Template designs
-                                <ul>
-                                    <li>Autocad</li>
-                                    <li>photography</li>
-                                </ul>
-                            </li>
-                            <li>Inventory Managment</li>
-                            <li>Project Management</li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <table>
-                            <tr>
-                                <td>ABC Country Restaurant</td>
-                            </tr>
-                            <tr>
-                                <td><time datetime="2006-07">July 2007</time> - <time datetime="2013-09">Sept 2013</time></td>
-                            </tr>
-                        </table>
-                    </td>
-                    <td>
-                        <ul>
-                            <li>Dishwasher</li>
-                            <li>High Volume Service</li>
-                            <li>Deserts and Salads</li>
-                            <li>cleaning</li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <table>
-                            <tr>
-                                <td>Thousand Hills Landscaping</td>
-                            <tr>
-                                <td><time datetime="2001-01">Jan 2001</time> - <time datetime="2006-07">July
-                                        2007</time></td>
-                            </tr>
-                        </table>
-                    </td>   
-                    <td>
-                        <ul>
-                            <li>General cleaning up</li>
-                            <li>Planting</li>
-                            <li>irrigation installation</li>
-                        </ul>
-                    </td>
-                </tr>
-            </table>
+                </div>
+            </div>
         </section>
-        <hr>
+
         <!--Fourth Skill Section-->
-        <section>
-            <h3>Skills</h3>
-            <table cellspacing="10">
-                <thead>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Web Development</td>
-                        <td>⭐️⭐️⭐️</td>
-                        <td>Photography</td>
-                        <td>⭐️</td>
-                    </tr>
-                    <tr>
-                        <td>iOS Development</td>
-                        <td>⭐️</td>
-                        <td>C/C++ Development</td>
-                        <td>⭐️⭐️</td>
-                    </tr>
-                </tbody>
-                <tfoot></tfoot>
-            </table>
+        <section id="skills">
+                <h3>Skills</h3>
+                <div class="row education-p">
+                    <div class="col-lg-6">
+                        <ul>
+                            <li>Web Development</li>
+                            <li>Photography</li>
+                            <li>iOS Development</li>
+                            <li>C/C++ Development</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6">
+                        <ul>
+                            <li>⭐️⭐️⭐️⭐️⭐️</li>
+                            <li>⭐️⭐️</li>
+                            <li>⭐️</li>
+                            <li>⭐️⭐️⭐️</li>
+                        </ul>
+                    </div>
+                </div>
         </section>
 </main>
-
-    <hr>
     <footer>
-        <nav>
-            <ul>
-                <li><a href="goals.html">Goals</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact Me</a></li>
-            </ul>
-        </nav>
+        <p></p>
+        ⭐️
+
     </footer>
 </body>
-
 </html>

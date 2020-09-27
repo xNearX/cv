@@ -1,0 +1,63 @@
+body {
+    background-color: white; 
+}
+
+h1, h3 {
+    color: #393E46;
+}
+
+img {
+    height: 170px;
+    width: 170px;
+}
+
+
+/* Title Header */
+
+
+
+
+
+/* Introduction Section */
+
+#introduction {
+    margin-top: 5%;
+    background-color: #00adb5;
+    padding: 5%;
+}
+
+
+/* Personal Description */
+
+#personal-description {
+    background-color: #eeeeee;
+    padding: 5%;
+}
+
+.personal-p {
+    color: #393e46;
+}
+
+
+/* Education Section */
+
+#education {
+    background-color: #00adb5;
+    padding: 5%;
+}
+
+.education-p {
+    margin-bottom: 5%;
+}
+
+/* Work Experience */
+
+#work-history {
+    background-color: #eeeeee;;
+}
+
+/* Skills Section */
+
+#skills {
+    background-color: #00adb5;
+}
